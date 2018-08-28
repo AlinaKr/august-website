@@ -27,11 +27,22 @@ router.get('/ana', (req, res, next) => {
 });
 >>>>>>> 2ef2b768654402991793b9acf2d249a822d36eec
 
+router.get('/maxence', (req, res, next) => {
+  res.render('maxence');
+});
+
 router.get('/jessica', (req, res, next) => {
   res.render('jessica');
 });
 
+<<<<<<< HEAD
 >>>>>>> d43901ca584910e05c526cce2e37a4e10afb81fa
+=======
+router.get('/flo', (req, res, next) => {
+  res.render('flowantsicecream');
+});
+
+>>>>>>> 0636b78da2c4c536cc7009ded1d4133b24c93776
 router.get('/jen', (req, res, next) => {
   res.render('jen');
 });
@@ -48,6 +59,11 @@ router.get('/anita-kash', (req, res, next) => {
   res.render('anita-kash');
 });
 
+<<<<<<< HEAD
 >>>>>>> d43901ca584910e05c526cce2e37a4e10afb81fa
+=======
+router.get('/alina', (req, res, next) => {
+  res.render('Alina');
+});
+>>>>>>> 0636b78da2c4c536cc7009ded1d4133b24c93776
 module.exports = router;
-
