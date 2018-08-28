@@ -8,6 +8,7 @@ router.get('/', (req, res, next) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 router.get('/nicole', (req, res, next) => {
   res.render('nicole')
 })
@@ -16,6 +17,15 @@ router.get('/nicole', (req, res, next) => {
 router.get('/ana', (req, res, next) => {
   res.render('ana');
 >>>>>>> 6900225d64cc4da20b01ecdbae35b3bb05272a0c
+=======
+router.get('/nhan', (req, res, next) => {
+  res.render('nhan');
+});
+
+router.get('/ana', (req, res, next) => {
+  res.render('ana');
+});
+>>>>>>> 2ef2b768654402991793b9acf2d249a822d36eec
 
 router.get('/jessica', (req, res, next) => {
   res.render('jessica');
@@ -34,8 +44,8 @@ router.get('/maxence', (req, res, next) => {
 });
 =======
 
-router.get('/anita', (req, res, next) => {
-  res.render('anita');
+router.get('/anita-kash', (req, res, next) => {
+  res.render('anita-kash');
 });
 
 >>>>>>> d43901ca584910e05c526cce2e37a4e10afb81fa
