@@ -15,5 +15,7 @@ router.get('/jen', (req, res, next) => {
 router.get('/carla', (req, res, next) => {
   res.render('carla');
 });
-
+router.get('/maxence', (req, res, next) => {
+  res.render('maxence');
+});
 module.exports = router;
