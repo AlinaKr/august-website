@@ -38,4 +38,11 @@ router.get('/anita-kash', (req, res, next) => {
   res.render('anita-kash');
 });
 
+<<<<<<< HEAD
 module.exports = router;
+=======
+router.get('/alina', (req, res, next) => {
+  res.render('Alina');
+});
+module.exports = router;
+>>>>>>> 01c7a7cc4e8a9d2c8898eb2f265ef759dc4aed2f
