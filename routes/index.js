@@ -37,4 +37,8 @@ router.get('/carla', (req, res, next) => {
 router.get('/anita-kash', (req, res, next) => {
   res.render('anita-kash');
 });
+
+router.get('/alina', (req, res, next) => {
+  res.render('Alina');
+});
 module.exports = router;
