@@ -60,10 +60,15 @@ router.get('/anita-kash', (req, res, next) => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d43901ca584910e05c526cce2e37a4e10afb81fa
+=======
+module.exports = router;
+>>>>>>> a5e97e41f3bbe58bcaaf326d99aa370bbf22e7c6
 =======
 router.get('/alina', (req, res, next) => {
   res.render('Alina');
 });
 >>>>>>> 0636b78da2c4c536cc7009ded1d4133b24c93776
 module.exports = router;
+>>>>>>> 01c7a7cc4e8a9d2c8898eb2f265ef759dc4aed2f
