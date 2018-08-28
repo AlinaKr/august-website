@@ -18,6 +18,11 @@ router.get('/jessica', (req, res, next) => {
   res.render('jessica');
 });
 
+router.get('/flo', (req, res, next) => {
+  res.render('flowantsicecream');
+});
+
+
 router.get('/jen', (req, res, next) => {
   res.render('jen');
 });
