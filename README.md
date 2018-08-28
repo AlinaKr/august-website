@@ -28,3 +28,9 @@ $ git commit -m "My Message"
 
 $ git pull
 ```
+
+### If `git pull` says "Already up-to-date."
+
+```sh
+$ git push
+```
