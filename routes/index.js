@@ -37,9 +37,5 @@ router.get('/carla', (req, res, next) => {
 router.get('/anita-kash', (req, res, next) => {
   res.render('anita-kash');
 });
-<<<<<<< HEAD
 
 module.exports = router;
-=======
-module.exports = router;
->>>>>>> 74d3275102dd02487b22252daf4984aef5f5ced3
