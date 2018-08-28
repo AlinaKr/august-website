@@ -1,5 +1,5 @@
 const express = require('express');
-const router  = express.Router();
+const router = express.Router();
 
 /* GET home page */
 router.get('/', (req, res, next) => {
@@ -9,5 +9,11 @@ router.get('/', (req, res, next) => {
 router.get('/nicole', (req, res, next) => {
   res.render('nicole')
 })
+router.get('/jen', (req, res, next) => {
+  res.render('jen');
+});
+router.get('/carla', (req, res, next) => {
+  res.render('carla');
+});
 
 module.exports = router;
