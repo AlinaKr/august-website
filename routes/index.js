@@ -8,6 +8,7 @@ router.get('/', (req, res, next) => {
 
 router.get('/ana', (req, res, next) => {
   res.render('ana');
+});
 
 router.get('/jessica', (req, res, next) => {
   res.render('jessica');
@@ -26,4 +27,3 @@ router.get('/anita-kash', (req, res, next) => {
 });
 
 module.exports = router;
-
