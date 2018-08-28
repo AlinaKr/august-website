@@ -7,10 +7,15 @@ router.get('/', (req, res, next) => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 router.get('/nicole', (req, res, next) => {
   res.render('nicole')
 })
 =======
+=======
+router.get('/ana', (req, res, next) => {
+  res.render('ana');
+>>>>>>> 6900225d64cc4da20b01ecdbae35b3bb05272a0c
 
 router.get('/jessica', (req, res, next) => {
   res.render('jessica');
