@@ -6,8 +6,13 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+router.get('/nhan', (req, res, next) => {
+  res.render('nhan');
+});
+
 router.get('/ana', (req, res, next) => {
   res.render('ana');
+});
 
 router.get('/jessica', (req, res, next) => {
   res.render('jessica');
@@ -26,8 +31,8 @@ router.get('/carla', (req, res, next) => {
   res.render('carla');
 });
 
-router.get('/anita', (req, res, next) => {
-  res.render('anita');
+router.get('/anita-kash', (req, res, next) => {
+  res.render('anita-kash');
 });
 
 module.exports = router;
